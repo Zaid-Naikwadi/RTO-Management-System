@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="messagePane" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainWindow.NewMessageController">
+   <children>
+      <Label fx:id="lbl" prefHeight="70.0" prefWidth="249.0" text="Label" />
+      <Hyperlink fx:id="hyperlink" layoutX="204.0" layoutY="47.0" onAction="#exam" text="Here" />
+   </children>
+</AnchorPane>

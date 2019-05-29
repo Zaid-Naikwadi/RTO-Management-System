@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="725.0" prefWidth="1417.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LearningTest.LearningTestController">
+   <content>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="734.0" prefWidth="1417.0">
+         <children>
+            <AnchorPane layoutX="-7.0" prefHeight="80.0" prefWidth="1424.0" style="-fx-background-color: #000000;">
+               <children>
+                  <Label layoutX="510.0" layoutY="16.0" prefHeight="54.0" prefWidth="365.0" text="Learning License Test Exam" textFill="WHITE" AnchorPane.bottomAnchor="10.0">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Button fx:id="cancelBtn" layoutX="453.0" layoutY="641.0" mnemonicParsing="false" onAction="#CancelBtn" prefHeight="57.0" prefWidth="168.0" text="Cancel">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Label layoutX="311.0" layoutY="93.0" prefHeight="56.0" prefWidth="202.0" text="Welcome :">
+               <font>
+                  <Font name="System Bold" size="39.0" />
+               </font>
+            </Label>
+            <Label fx:id="name" layoutX="528.0" layoutY="98.0" prefHeight="56.0" prefWidth="450.0">
+               <font>
+                  <Font size="39.0" />
+               </font>
+            </Label>
+            <Label fx:id="que" layoutX="263.0" layoutY="181.0" prefHeight="201.0" prefWidth="878.0" wrapText="true">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <JFXRadioButton fx:id="A" layoutX="360.0" layoutY="445.0" onAction="#Aselected" prefHeight="69.0" prefWidth="209.0" wrapText="true">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </JFXRadioButton>
+            <JFXRadioButton fx:id="B" layoutX="733.0" layoutY="445.0" onAction="#Bselected" prefHeight="69.0" prefWidth="209.0" wrapText="true">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </JFXRadioButton>
+            <JFXRadioButton fx:id="C" layoutX="360.0" layoutY="524.0" onAction="#Cselected" prefHeight="67.0" prefWidth="209.0" text="RadioButton" wrapText="true">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </JFXRadioButton>
+            <JFXRadioButton fx:id="D" layoutX="733.0" layoutY="524.0" onAction="#Dselected" prefHeight="69.0" prefWidth="209.0" text="RadioButton" wrapText="true">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </JFXRadioButton>
+            <Label layoutX="343.0" layoutY="455.0" text="A">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="714.0" layoutY="456.0" text="B">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="343.0" layoutY="534.0" text="C">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="714.0" layoutY="534.0" text="D">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+            <Button fx:id="nextQue" layoutX="683.0" layoutY="639.0" mnemonicParsing="false" onAction="#setQue" prefHeight="57.0" prefWidth="202.0" text="Next Question">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Label layoutX="139.0" layoutY="190.0" text="Q.No">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="queNo" layoutX="204.0" layoutY="185.0" prefHeight="46.0" prefWidth="50.0">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="imgview" fitHeight="150.0" fitWidth="200.0" layoutX="1184.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
