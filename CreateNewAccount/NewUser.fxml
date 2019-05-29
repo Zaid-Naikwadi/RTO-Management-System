@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainAnchor" prefHeight="548.0" prefWidth="956.0" styleClass="mainAnchor" stylesheets="@effects.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CreateNewAccount.NewUserController">
+   <children>
+      <Pane layoutX="25.0" layoutY="33.0" prefHeight="489.0" prefWidth="915.0" style="-fx-background-color: #FFFFFF;" styleClass="contentAnchor" stylesheets="@../application/application.css">
+         <children>
+            <Label layoutX="51.0" layoutY="30.0" prefHeight="88.0" prefWidth="562.0" text="Create User Account" textFill="#dd2244" textOverrun="WORD_ELLIPSIS" underline="true">
+               <font>
+                  <Font name="Arabic Typesetting" size="60.0" />
+               </font>
+            </Label>
+            <Button fx:id="register" layoutX="222.0" layoutY="386.0" mnemonicParsing="false" onAction="#onRegister" prefHeight="46.0" prefWidth="295.0" style="-fx-background-color: #48D1CC;" text="Register Now">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="29.0" fitWidth="35.0" layoutX="382.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@userIcon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="36.0" fitWidth="36.0" layoutX="45.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@emailIcon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="36.0" fitWidth="39.0" layoutX="379.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@passwordIcon.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="378.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@passwordIcon.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="673.0" layoutY="401.0" text="Already have an account?">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Hyperlink fx:id="lgn" layoutX="745.0" layoutY="428.0" onAction="#gotoMain" text="Login " underline="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Hyperlink>
+            <JFXTextField fx:id="username" layoutX="434.0" layoutY="131.0" maxWidth="221.0" minWidth="166.0" prefHeight="40.0" prefWidth="215.0" promptText="Username">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="email" layoutX="123.0" layoutY="313.0" maxWidth="221.0" minWidth="166.0" prefHeight="40.0" prefWidth="215.0" promptText="Email id">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField fx:id="password" layoutX="434.0" layoutY="213.0" maxWidth="221.0" minWidth="166.0" prefHeight="40.0" prefWidth="215.0" promptText="Password">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </JFXPasswordField>
+            <JFXPasswordField fx:id="rePassword" layoutX="434.0" layoutY="310.0" maxWidth="221.0" minWidth="166.0" prefHeight="40.0" prefWidth="215.0" promptText="Re-type Password">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </JFXPasswordField>
+            <JFXTextField fx:id="name" layoutX="115.0" layoutY="131.0" maxWidth="221.0" minWidth="166.0" prefHeight="40.0" prefWidth="215.0" promptText="Full Name">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </JFXTextField>
+            <ImageView fitHeight="29.0" fitWidth="35.0" layoutX="51.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@userIcon.png" />
+               </image>
+            </ImageView>
+            <JFXDatePicker fx:id="date" layoutX="123.0" layoutY="213.0" onAction="#date" prefHeight="31.0" prefWidth="200.0" promptText="Date Of Birth" />
+            <ImageView fitHeight="36.0" fitWidth="63.0" layoutX="37.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@DOB.png" />
+               </image>
+            </ImageView>
+            <JFXRadioButton fx:id="male" layoutX="87.0" layoutY="269.0" onAction="#maleSelected" prefHeight="36.0" prefWidth="112.0" text="Male">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </JFXRadioButton>
+            <JFXRadioButton fx:id="female" layoutX="229.0" layoutY="271.0" onAction="#femaleSelected" prefHeight="36.0" prefWidth="112.0" text="Female">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </JFXRadioButton>
+            <ImageView fitHeight="29.0" fitWidth="35.0" layoutX="52.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@male-icon-13.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="29.0" fitWidth="35.0" layoutX="196.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@female-user-icon-bright-blue-hi.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pass" fitHeight="27.0" fitWidth="29.0" layoutX="644.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@cross-512.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="repass" fitHeight="27.0" fitWidth="29.0" layoutX="644.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@cross-512.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="user" fitHeight="27.0" fitWidth="29.0" layoutX="644.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@cross-512.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="warning" layoutX="22.0" layoutY="451.0" prefHeight="36.0" prefWidth="632.0" text="Please fill in All the details" textFill="#350ae4" visible="false">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="namecross" fitHeight="27.0" fitWidth="29.0" layoutX="325.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@cross-512.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="emailcross" fitHeight="27.0" fitWidth="29.0" layoutX="325.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@cross-512.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pointdown" fitHeight="150.0" fitWidth="200.0" layoutX="716.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@downpointing.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="datecross" fitHeight="27.0" fitWidth="29.0" layoutX="325.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@cross-512.png" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Pane>
+   </children>
+</AnchorPane>

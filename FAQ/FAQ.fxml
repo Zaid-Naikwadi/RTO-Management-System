@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="2322.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FAQ.FAQController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2320.0" prefWidth="1398.0">
+         <children>
+            <Label layoutX="97.0" layoutY="210.0" prefHeight="91.0" prefWidth="576.0" text="What is RTO?">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="97.0" layoutY="260.0" prefHeight="160.0" prefWidth="1119.0" text="RTO is an abbreviation used for Regional Transport Officer. Regional Transport Officer  is licensing, registration, taxation authority of that region.  " wrapText="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="63.0" layoutY="229.0" prefHeight="53.0" prefWidth="32.0" text="1.">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Label>
+            <Label layoutX="97.0" layoutY="420.0" prefHeight="91.0" prefWidth="576.0" text="How long is a learner licence valid?">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="63.0" layoutY="439.0" prefHeight="53.0" prefWidth="32.0" text="2.">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Label>
+            <Label layoutX="97.0" layoutY="478.0" prefHeight="91.0" prefWidth="576.0" text="6 Months">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="99.0" layoutY="583.0" prefHeight="91.0" prefWidth="1084.0" text="I have obtained a learner licence in mumbai, is it valid in chennai?">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="99.0" layoutY="654.0" prefHeight="76.0" prefWidth="1119.0" text="A learner as well as permanent licence is valid throughout India." wrapText="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="63.0" layoutY="602.0" prefHeight="53.0" prefWidth="32.0" text="3.">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Label>
+            <Label layoutX="99.0" layoutY="765.0" prefHeight="91.0" prefWidth="1084.0" text="Can I drive a motorcycle with learner licence?">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="99.0" layoutY="798.0" prefHeight="262.0" prefWidth="1119.0" text="Learner’s licence is meant for learning purpose only. It is not a full-fledged licence. You can drive only with pillion rider possessing valid driving licence with himLearner’s licence is meant for learning purpose only. It is not a full-fledged licence. You can drive only with pillion rider possessing valid driving licence with him" wrapText="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="63.0" layoutY="784.0" prefHeight="53.0" prefWidth="32.0" text="4.">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Label>
+            <Label layoutX="100.0" layoutY="1071.0" prefHeight="91.0" prefWidth="668.0" text="Can I drive with an expired licence?">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="63.0" layoutY="1084.0" prefHeight="53.0" prefWidth="32.0" text="5.">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Label>
+            <Label layoutX="123.0" layoutY="1438.0" prefHeight="411.0" prefWidth="368.0" text="I. Driving licence                    II.  Registration certificate       III. Taxation certificate            IV. Insurance certificate          V. PUC certificate            VI.Road permit and fitness    certificate (for transport vechicles)  " wrapText="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="102.0" layoutY="1246.0" prefHeight="91.0" prefWidth="1176.0" text="Do I need to keep the documents of vehicle with me while driving?">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="119.0" layoutY="1318.0" prefHeight="167.0" prefWidth="1136.0" text="You must produce following valid document in original if demanded by police officer in uniform or an officer from motor vehicle dept.   " wrapText="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="67.0" layoutY="1265.0" prefHeight="53.0" prefWidth="32.0" text="6.">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Label>
+            <Label layoutX="100.0" layoutY="1133.0" prefHeight="91.0" prefWidth="1136.0" text="No, driving with such licence is an offence under motor vehicle laws.  ">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="99.0" layoutY="1844.0" prefHeight="123.0" prefWidth="1282.0" text="How many hours of driving instructions a motor driving school is supposed to impart to the candidate enrolled?" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="70.0" layoutY="1856.0" prefHeight="53.0" prefWidth="32.0" text="7.">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Label>
+            <Label layoutX="117.0" layoutY="1972.0" prefHeight="75.0" prefWidth="312.0" text="TYPE OF VEHICLE" wrapText="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="520.0" layoutY="1972.0" prefHeight="75.0" prefWidth="356.0" text=" MIN DAYS OF TRAINING" wrapText="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="1010.0" layoutY="1972.0" prefHeight="75.0" prefWidth="372.0" text="MIN HRS OF INSTRUCTIONS" wrapText="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="117.0" layoutY="2044.0" prefHeight="75.0" prefWidth="70.0" text="He" wrapText="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="117.0" layoutY="2113.0" prefHeight="75.0" prefWidth="70.0" text="He" wrapText="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="520.0" layoutY="2113.0" prefHeight="75.0" prefWidth="70.0" text="He" wrapText="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="1009.0" layoutY="2113.0" prefHeight="75.0" prefWidth="70.0" text="He" wrapText="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="520.0" layoutY="2044.0" prefHeight="75.0" prefWidth="70.0" text="He" wrapText="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="1010.0" layoutY="2044.0" prefHeight="75.0" prefWidth="70.0" text="He" wrapText="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Button fx:id="OkBtn" defaultButton="true" layoutX="696.0" layoutY="2243.0" mnemonicParsing="false" onAction="#onOK" prefHeight="44.0" prefWidth="89.0" text="OK">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+            <AnchorPane prefHeight="158.0" prefWidth="1510.0" style="-fx-background-color: BLUE;">
+               <children>
+                  <Label layoutX="646.0" layoutY="52.0" prefHeight="81.0" prefWidth="122.0" text="FAQ" textFill="WHITE" AnchorPane.bottomAnchor="40.0">
+                     <font>
+                        <Font size="55.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="117.0" fitWidth="169.0" layoutX="116.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@govt-of-inda-logo.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="117.0" fitWidth="154.0" layoutX="1143.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@RtoIcon.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

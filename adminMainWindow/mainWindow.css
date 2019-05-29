@@ -1,0 +1,31 @@
+.btn1{
+   -fx-background-color:rgba(0,100,255,0.4);
+ }
+.btn2{
+   -fx-background-color:rgba(10,255,100,0.4);
+ }
+.btn3{
+   -fx-background-color:rgba(0,100,255,0.4);
+ }
+.btn4{
+   -fx-background-color:rgba(0,100,255,0.4);
+ }
+.btn5{
+   -fx-background-color:rgba(10,255,100,0.4);
+ }
+.btn6{
+   -fx-background-color:rgba(0,100,255,0.4);
+ }
+.btn7{
+   -fx-background-color:rgba(0,100,255,0.4);
+ }
+.btn8{
+   -fx-background-color:rgba(10,255,100,0.4);
+ }
+.btn9{
+   -fx-background-color:rgba(0,100,255,0.4);
+ }
+.hamburger StackPane{
+    -fx-background-color: #FFFFFF;
+}
+ 

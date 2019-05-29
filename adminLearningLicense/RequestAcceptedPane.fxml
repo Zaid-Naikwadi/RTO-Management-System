@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="45.0" prefWidth="352.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111">
+   <children>
+      <Label prefHeight="62.0" prefWidth="352.0" style="-fx-background-color: #f1f1f1;" text="Request Accepted">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

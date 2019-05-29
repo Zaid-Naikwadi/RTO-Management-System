@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="528.0" prefWidth="734.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="adminPermanentLicense.PhotoController">
+   <children>
+      <ImageView fx:id="imgview" fitHeight="488.0" fitWidth="679.0" layoutX="28.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

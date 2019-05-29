@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="4592.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="adminRules.RulesController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="4590.0" prefWidth="1398.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <AnchorPane prefHeight="158.0" prefWidth="1510.0" style="-fx-background-color: BLUE;">
+               <children>
+                  <Label layoutX="136.0" layoutY="37.0" prefHeight="81.0" prefWidth="1086.0" text="RULES OF THE ROAD REGULATIONS, 1989" textFill="WHITE" AnchorPane.bottomAnchor="40.0">
+                     <font>
+                        <Font size="55.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="796.0" fitWidth="1114.0" layoutX="98.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Rules/1.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="535.0" fitWidth="1054.0" layoutX="114.0" layoutY="985.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Rules/2.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="777.0" fitWidth="971.0" layoutX="142.0" layoutY="1369.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Rules/3.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="493.0" fitWidth="920.0" layoutX="153.0" layoutY="2127.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Rules/4.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="313.0" layoutY="2452.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="731.0" fitWidth="1006.0" layoutX="139.0" layoutY="2383.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Rules/5.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="715.0" fitWidth="915.0" layoutX="155.0" layoutY="3078.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Rules/6.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="588.0" fitWidth="834.0" layoutX="181.0" layoutY="3786.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Rules/7.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="281.0" layoutY="4024.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="718.0" fitWidth="842.0" layoutX="165.0" layoutY="3940.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Rules/8.PNG" />
+               </image>
+            </ImageView>
+            <Button fx:id="OkBtn" defaultButton="true" layoutX="581.0" layoutY="4505.0" mnemonicParsing="false" onAction="#onOK" prefHeight="45.0" prefWidth="100.0" text="OK">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font></Button>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

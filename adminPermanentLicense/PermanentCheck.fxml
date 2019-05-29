@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1479.0" prefWidth="1417.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="adminPermanentLicense.PermanentCheckController">
+   <content>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1490.0" prefWidth="1417.0">
+         <children>
+            <AnchorPane layoutX="-7.0" layoutY="-1.0" prefHeight="80.0" prefWidth="1424.0" style="-fx-background-color: #000000;">
+               <children>
+                  <Label layoutX="285.0" layoutY="16.0" prefHeight="54.0" prefWidth="896.0" text="FORM OF APPLICATION FOR THE GRANT OF PERMANENT LICENSE" textFill="WHITE" AnchorPane.bottomAnchor="10.0">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label layoutX="221.0" layoutY="140.0" prefHeight="43.0" prefWidth="362.0" text="Full Name                           :">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="221.0" layoutY="261.0" prefHeight="43.0" prefWidth="382.0" text="Permanent Address            :">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="217.0" layoutY="550.0" prefHeight="43.0" prefWidth="390.0" text="Educational Qualification   :">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="221.0" layoutY="480.0" prefHeight="43.0" prefWidth="374.0" text="Place Of Birth                      :">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="221.0" layoutY="423.0" prefHeight="43.0" prefWidth="390.0" text="Date Of Birth                       :">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="221.0" layoutY="607.0" prefHeight="43.0" prefWidth="376.0" text="Blood Group                        :">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="221.0" layoutY="671.0" prefHeight="43.0" prefWidth="386.0" text="Phone No                             :">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="221.0" layoutY="732.0" prefHeight="43.0" prefWidth="388.0" text="Email ID                                :">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+            <Button fx:id="accept" layoutX="667.0" layoutY="1352.0" mnemonicParsing="false" onAction="#accepted" prefHeight="57.0" prefWidth="168.0" text="Accept">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Button fx:id="cancelBtn" layoutX="468.0" layoutY="1352.0" mnemonicParsing="false" onAction="#CancelBtn" prefHeight="57.0" prefWidth="168.0" text="Reject">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Label layoutX="200.0" layoutY="979.0" prefHeight="43.0" prefWidth="408.0" text="Documents Attached            :">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+            <Label fx:id="warning" layoutX="468.0" layoutY="1775.0" prefHeight="52.0" prefWidth="717.0" text="Please Fill All The Details" underline="true" visible="false" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="507.0" layoutY="1169.0" prefHeight="43.0" prefWidth="118.0" text="Any One">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Label fx:id="address" layoutX="626.0" layoutY="217.0" prefHeight="149.0" prefWidth="460.0" wrapText="true">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="date" layoutX="615.0" layoutY="428.0" prefHeight="49.0" prefWidth="454.0">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="place" layoutX="609.0" layoutY="477.0" prefHeight="49.0" prefWidth="454.0">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="qualification" layoutX="619.0" layoutY="550.0" prefHeight="49.0" prefWidth="454.0">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="blood" layoutX="620.0" layoutY="609.0" prefHeight="49.0" prefWidth="454.0">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="phone" layoutX="622.0" layoutY="674.0" prefHeight="49.0" prefWidth="454.0">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="email" layoutX="623.0" layoutY="733.0" prefHeight="49.0" prefWidth="454.0">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Hyperlink fx:id="PassportPhotoCheck" layoutX="662.0" layoutY="982.0" onAction="#PhotoCheck" prefHeight="48.0" prefWidth="245.0" text="Passport Size Photo">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="AadharCardCheck" layoutX="663.0" layoutY="1038.0" onAction="#PhotoCheck" prefHeight="48.0" prefWidth="221.0" text="Aadhar Card">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="LCCheck" layoutX="662.0" layoutY="1093.0" onAction="#PhotoCheck" prefHeight="48.0" prefWidth="227.0" text="Leaving Certificate">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="RationCardCheck" layoutX="660.0" layoutY="1148.0" onAction="#PhotoCheck" prefHeight="39.0" prefWidth="203.0" text="Ration Card">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="PANCheck" layoutX="664.0" layoutY="1204.0" onAction="#PhotoCheck" prefHeight="39.0" prefWidth="203.0" text="PAN Card">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Hyperlink>
+            <Label fx:id="name" layoutX="625.0" layoutY="142.0" prefHeight="49.0" prefWidth="454.0">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="218.0" layoutY="890.0" prefHeight="43.0" prefWidth="388.0" text="Learning License ID              :">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+            <Label fx:id="id" layoutX="620.0" layoutY="891.0" prefHeight="49.0" prefWidth="454.0">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="222.0" layoutY="813.0" prefHeight="43.0" prefWidth="388.0" text="COV                                      :">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+            <Label fx:id="cov" layoutX="624.0" layoutY="814.0" prefHeight="49.0" prefWidth="454.0">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
