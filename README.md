@@ -1,5 +1,5 @@
 # RTO-Management-System
-A Cross Platform software application for making RTO (Regional Transport Ofﬁce) process online with centralized database to speed-up their time consuming process in Java and JavaFx
+A Cross Platform software application for making RTO (Regional Transport Ofﬁce) process online with centralized database to speed-up their time consuming process in Java and JavaFx with MVC architecture.
 
 ## Login Window: 
 ![alt text](https://github.com/Zaid-Naikwadi/RTO-Management-System/blob/master/Login%20Window.png)
